@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.chrisbanes.actionbarpulltorefresh</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.9.3</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+    <artifactId>library</artifactId>
+    <packaging>apklib</packaging>
+
+    <name>ActionBar-PullToRefresh - Library</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.android</groupId>
+			<artifactId>android</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
+        <dependency>
+            <groupId>com.google.android</groupId>
+            <artifactId>support-v4</artifactId>
+            <version>[r19,)</version>
+        </dependency>
+
+		<!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7</artifactId>
+            <version>[19,)</version>
+            <type>apklib</type>
+        </dependency>
+
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7</artifactId>
+            <version>[19,)</version>
+            <type>jar</type>
+        </dependency>
+
+        <!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7-appcompat</artifactId>
+            <version>[19,)</version>
+            <type>apklib</type>
+        </dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7-appcompat</artifactId>
+            <version>[19,)</version>
+            <type>jar</type>
+        </dependency>
+
+        <dependency>
+			<groupId>com.github.castorflex.smoothprogressbar</groupId>
+			<artifactId>library</artifactId>
+			<version>0.3.3</version>
+            <type>apklib</type>
+		</dependency>
+
+	</dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
