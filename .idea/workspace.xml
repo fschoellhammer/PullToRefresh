@@ -3,7 +3,9 @@
   <component name="AndroidExternalApklibDependenciesManager">
     <artifacts>
       <entry key="android.support_compatibility-v7-appcompat_19" value="$MAVEN_REPOSITORY$/android/support/compatibility-v7-appcompat/19/compatibility-v7-appcompat-19.apklib" />
+      <entry key="android.support_compatibility-v7-appcompat_19.0.1" value="$MAVEN_REPOSITORY$/android/support/compatibility-v7-appcompat/19.0.1/compatibility-v7-appcompat-19.0.1.apklib" />
       <entry key="android.support_compatibility-v7_19" value="$MAVEN_REPOSITORY$/android/support/compatibility-v7/19/compatibility-v7-19.apklib" />
+      <entry key="android.support_compatibility-v7_19.0.1" value="$MAVEN_REPOSITORY$/android/support/compatibility-v7/19.0.1/compatibility-v7-19.0.1.apklib" />
       <entry key="com.github.castorflex.smoothprogressbar_library_0.3.3" value="$MAVEN_REPOSITORY$/com/github/castorflex/smoothprogressbar/library/0.3.3/library-0.3.3.apklib" />
     </artifacts>
     <resolved-infos>
@@ -14,7 +16,21 @@
           </resolved-info>
         </value>
       </entry>
+      <entry key="android.support_compatibility-v7-appcompat_19.0.1">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="" />
+          </resolved-info>
+        </value>
+      </entry>
       <entry key="android.support_compatibility-v7_19">
+        <value>
+          <resolved-info>
+            <option name="apiLevel" value="" />
+          </resolved-info>
+        </value>
+      </entry>
+      <entry key="android.support_compatibility-v7_19.0.1">
         <value>
           <resolved-info>
             <option name="apiLevel" value="" />
@@ -120,7 +136,381 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="514a84b7-8f10-498e-be1d-b11621bc8b04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java" afterPath="$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_19_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/extra-abc.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/actionbarcompat/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__android_support_compatibility_v7_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__android_support_compatibility_v7_apklib_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__android_support_compatibility_v7_appcompat_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__android_support_compatibility_v7_appcompat_apklib_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/gen/android/support/v7/appcompat/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/gen/android/support/v7/appcompat/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/gen/android/support/v7/appcompat/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_fade_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_fade_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_slide_in_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_slide_in_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_slide_out_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/anim/abc_slide_out_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/color/abc_search_url_text_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_item_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_item_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_list_selector_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_list_selector_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout-v11/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout-v14/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_decor_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_decor_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_tabbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_title_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_mode_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_activity_chooser_view_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_expanded_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_list_menu_item_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_list_menu_item_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_list_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_list_menu_item_radio.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_popup_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/abc_search_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-af/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-am/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ar/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-bg/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ca/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-cs/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-da/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-de/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-el/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-en-rGB/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-en-rIN/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-es-rUS/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-es/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-et-rEE/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-fa/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-fi/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-fr-rCA/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-fr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-hi/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-hr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-hu/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-hy-rAM/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-in/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-it/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-iw/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ja/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ka-rGE/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-km-rKH/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ko/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-land/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-land/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-land/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-large/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-large/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-large/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-lo-rLA/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-lt/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-lv/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-mn-rMN/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ms-rMY/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-nb/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-nl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-pl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-pt-rPT/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-pt/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ro/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-ru/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sk/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sv/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sw/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sw600dp/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-sw600dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-th/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-tl/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-tr/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-uk/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-v11/styles_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-v11/themes_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-v14/styles_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-v14/themes_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-vi/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w360dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w480dp/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w480dp/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w500dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w600dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-w720dp/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-xlarge/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-xlarge/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-zh-rCN/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-zh-rHK/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-zh-rTW/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values-zu/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/bools.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/styles_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/themes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7-appcompat_19/res/values/themes_base.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/gen/android/support/v7/gridlayout/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/gen/android/support/v7/gridlayout/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/gen/android/support/v7/gridlayout/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gen-external-apklibs/android.support_compatibility-v7_19/res/values/dimens.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_r19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_support_v4_19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/target/library-0.9.3.ap_" afterPath="$PROJECT_DIR$/library/target/library-0.9.3.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/target/library-0.9.3.apklib" afterPath="$PROJECT_DIR$/library/target/library-0.9.3.apklib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/target/library-0.9.3.jar" afterPath="$PROJECT_DIR$/library/target/library-0.9.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/library.iml" afterPath="$PROJECT_DIR$/library/library.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -184,10 +574,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extras/actionbarcompat/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="24" selection-start="2198" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1720">
+            <state line="61" column="75" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.42414173" vertical-offset="837" max-vertical-offset="1740">
               <folding />
             </state>
           </provider>
@@ -196,19 +586,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1820">
+            <state line="41" column="25" selection-start="1386" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1840">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Compat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/Compat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,19 +595,17 @@
       <file leaf-file-name="CompatBase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/CompatBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultHeaderTransformer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultHeaderTransformer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="36" selection-start="2231" selection-end="2231" vertical-scroll-proportion="-2.319101" vertical-offset="3024" max-vertical-offset="8680">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="103" column="35" selection-start="3987" selection-end="3987" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="9120">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,7 +613,7 @@
       <file leaf-file-name="SmoothProgressDrawable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6110" max-vertical-offset="7000">
+            <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6800" max-vertical-offset="7380">
               <folding />
             </state>
           </provider>
@@ -245,10 +622,8 @@
       <file leaf-file-name="SmoothProgressBar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4100">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4100">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -256,7 +631,7 @@
       <file leaf-file-name="ContentLoadingSmoothProgressBar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2120">
+            <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
@@ -265,11 +640,8 @@
       <file leaf-file-name="EnvironmentDelegate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-              <folding>
-                <element signature="e#0#1008#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="760">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -289,8 +661,10 @@
       <list>
         <option value="$PROJECT_DIR$/library/pom.xml" />
         <option value="$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java" />
+        <option value="$PROJECT_DIR$/extras/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/extras/actionbarcompat/pom.xml" />
       </list>
     </option>
   </component>
@@ -335,6 +709,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -434,9 +809,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ActionBar-PullToRefresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ActionBar-PullToRefresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actionbarcompat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,6 +860,14 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SmoothProgressBar/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extras" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extras/actionbarcompat" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -615,15 +1029,41 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -642,6 +1082,230 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/CompatBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="35" selection-start="3987" selection-end="3987" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="9120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6800" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extras/actionbarcompat/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1387" selection-end="1413" vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/CompatBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="35" selection-start="3987" selection-end="3987" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="9120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6800" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="24" selection-start="2198" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/Compat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/CompatBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="35" selection-start="3987" selection-end="3987" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="8680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6800" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="24" selection-start="2198" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/Compat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/CompatBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="36" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="1240" max-vertical-offset="8680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="340" column="34" selection-start="11350" selection-end="11361" vertical-scroll-proportion="0.0" vertical-offset="6800" max-vertical-offset="7380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/ContentLoadingSmoothProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/ActionBarPullToRefresh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="13" selection-start="979" selection-end="979" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2360">
@@ -687,46 +1351,30 @@
     <entry file="file://$PROJECT_DIR$/library/gen-external-apklibs/com.github.castorflex.smoothprogressbar_library_0.3.3/src/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="34" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4100">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/EnvironmentDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="17" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-          <folding>
-            <element signature="e#0#1008#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.53156143" vertical-offset="0" max-vertical-offset="903">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.53156143" vertical-offset="0" max-vertical-offset="903" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="24" selection-start="2198" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1820">
           <folding />
         </state>
       </provider>
@@ -748,18 +1396,42 @@
     <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/sdk/Compat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/uk/co/senab/actionbarpulltorefresh/library/DefaultHeaderTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="2231" selection-end="2231" vertical-scroll-proportion="-2.319101" vertical-offset="3024" max-vertical-offset="8680">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="103" column="35" selection-start="3987" selection-end="3987" vertical-scroll-proportion="0.0" vertical-offset="2060" max-vertical-offset="8660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extras/actionbarcompat/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extras/actionbarcompat/extra-abc.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1386" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extras/actionbarcompat/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="75" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.42414173" vertical-offset="837" max-vertical-offset="1740">
+          <folding />
         </state>
       </provider>
     </entry>
