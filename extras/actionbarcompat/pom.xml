@@ -9,7 +9,7 @@
 		<version>0.9.3</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-
+	
 	<artifactId>extra-abc</artifactId>
     <packaging>apklib</packaging>
 
@@ -26,21 +26,21 @@
         <dependency>
             <groupId>com.google.android</groupId>
             <artifactId>support-v4</artifactId>
-            <version>19</version>
+            <version>${android-support.version}</version>
         </dependency>
 
 		<!-- via maven deployer: https://github.com/mosabua/maven-android-sdk-deployer -->
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7</artifactId>
-            <version>19.0.1</version>
+            <version>${android-support.version}</version>
             <type>apklib</type>
         </dependency>
 
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7</artifactId>
-            <version>19.0.1</version>
+            <version>${android-support.version}</version>
             <type>jar</type>
         </dependency>
 
@@ -48,13 +48,13 @@
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19.0.1</version>
+            <version>${android-support.version}</version>
             <type>apklib</type>
         </dependency>
         <dependency>
             <groupId>android.support</groupId>
             <artifactId>compatibility-v7-appcompat</artifactId>
-            <version>19.0.1</version>
+            <version>${android-support.version}</version>
             <type>jar</type>
         </dependency>
 
